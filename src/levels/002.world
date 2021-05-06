@@ -1,0 +1,199 @@
+11 ,17
+
+1 ,1  :    ,                 ,wall                                    #wall_
+1 ,2  :    ,                 ,wall                                    #wall_
+1 ,3  :    ,                 ,wall                                    #wall_
+1 ,4  :    ,                 ,wall                                    #wall_
+1 ,5  :    ,                 ,wall                                    #wall_
+1 ,6  :    ,                 ,wall                                    #wall_
+1 ,7  :    ,                 ,wall                                    #wall_
+1 ,8  :    ,                 ,wall                                    #wall_
+1 ,9  :    ,                 ,wall                                    #wall_
+1 ,10 :    ,                 ,wall                                    #wall_
+1 ,11 :    ,                 ,wall                                    #wall_
+1 ,12 :    ,                 ,wall                                    #wall_
+1 ,13 :    ,                 ,wall                                    #wall_
+1 ,14 :    ,                 ,wall                                    #wall_
+1 ,15 :    ,                 ,wall                                    #wall_
+1 ,16 :    ,                 ,wall                                    #wall_
+1 ,17 :    ,                 ,wall                                    #wall_
+
+2 ,1  :    ,                 ,wall                                    #wall_
+2 ,2  :    ,                 ,wall                                    #wall_
+2 ,3  :    ,                 ,corridor_1101+opener_unpressed+yellow   #opener_y
+2 ,4  :    ,                 ,wall                                    #wall_
+2 ,5  :    ,                 ,wall                                    #wall_
+2 ,6  :    ,                 ,wall                                    #wall_
+2 ,7  :    ,                 ,wall                                    #wall_
+2 ,8  :    ,                 ,wall                                    #wall_
+2 ,9  :    ,                 ,wall                                    #wall_
+2 ,10 :    ,                 ,wall                                    #wall_
+2 ,11 :    ,                 ,wall                                    #wall_
+2 ,12 :    ,                 ,wall                                    #wall_
+2 ,13 :    ,                 ,wall                                    #wall_
+2 ,14 :    ,                 ,wall                                    #wall_
+2 ,15 :    ,                 ,wall                                    #wall_
+2 ,16 :    ,                 ,wall                                    #wall_
+2 ,17 :    ,                 ,wall                                    #wall_
+
+3 ,1  :    ,                 ,wall                                    #wall_
+3 ,2  :    ,                 ,corridor_1001                           #corridor_
+3 ,3  :    ,                 ,corridor_0010                           #corridor_
+3 ,4  :    ,                 ,corridor_1010                           #corridor_
+3 ,5  :    ,                 ,port_NS_closed                          #port_p
+3 ,6  :    ,                 ,corridor_1010+opener_unpressed+purple   #opener_p
+3 ,7  :    ,                 ,corridor_1010                           #corridor_
+3 ,8  :    ,                 ,corridor_1010                           #corridor_
+3 ,9  :    ,                 ,corridor_1000                           #corridor_
+3 ,10 :    ,                 ,corridor_1010                           #corridor_
+3 ,11 :    ,                 ,corridor_1000                           #corridor_
+3 ,12 :    ,                 ,corridor_1010                           #corridor_
+3 ,13 :    ,                 ,corridor_1010+closer_unpressed+blue     #closer_b
+3 ,14 :    ,                 ,corridor_1010                           #corridor_
+3 ,15 :    ,                 ,corridor_1010                           #corridor_
+3 ,16 :    ,                 ,corridor_1000                           #corridor_
+3 ,17 :    ,knuffis_west     ,corridor_1010                           #corridor_
+
+4 ,1  :    ,                 ,wall                                    #wall_
+4 ,2  :    ,                 ,corridor_0101                           #corridor_
+4 ,3  :    ,                 ,wall                                    #wall_
+4 ,4  :    ,                 ,wall                                    #wall_
+4 ,5  :    ,                 ,wall                                    #wall_
+4 ,6  :    ,                 ,wall                                    #wall_
+4 ,7  :    ,                 ,wall                                    #wall_
+4 ,8  :    ,                 ,wall                                    #wall_
+4 ,9  :    ,                 ,corridor_0101                           #corridor_
+4 ,10 :    ,                 ,wall                                    #wall_
+4 ,11 :    ,                 ,port_EW_open                            #port_b
+4 ,12 :    ,                 ,wall                                    #wall_
+4 ,13 :    ,                 ,wall                                    #wall_
+4 ,14 :    ,                 ,wall                                    #wall_
+4 ,15 :    ,                 ,wall                                    #wall_
+4 ,16 :    ,                 ,corridor_0101                           #corridor_
+4 ,17 :    ,                 ,wall                                    #wall_
+
+5 ,1  :    ,                 ,wall                                    #wall_
+5 ,2  :    ,                 ,corridor_0011+opener_unpressed+red      #opener_r
+5 ,3  :    ,                 ,corridor_1010                           #corridor_
+5 ,4  :    ,                 ,corridor_1010                           #corridor_
+5 ,5  :    ,                 ,corridor_1010                           #corridor_
+5 ,6  :    ,                 ,corridor_1010                           #corridor_
+5 ,7  :    ,                 ,corridor_1010                           #corridor_
+5 ,8  :    ,                 ,port_NS_closed                          #port_r
+5 ,9  :    ,                 ,corridor_0100                           #corridor_
+5 ,10 :    ,                 ,wall                                    #wall_
+5 ,11 :    ,                 ,corridor_0011                           #corridor_
+5 ,12 :    ,                 ,corridor_1010                           #corridor_
+5 ,13 :    ,                 ,corridor_1010                           #corridor_
+5 ,14 :    ,                 ,corridor_1110+goal                      #goal_
+5 ,15 :    ,                 ,wall                                    #wall_
+5 ,16 :    ,                 ,corridor_0101                           #corridor_
+5 ,17 :    ,                 ,wall                                    #wall_
+
+6 ,1  :    ,                 ,wall                                    #wall_
+6 ,2  :    ,                 ,wall                                    #wall_
+6 ,3  :    ,                 ,wall                                    #wall_
+6 ,4  :    ,                 ,wall                                    #wall_
+6 ,5  :    ,                 ,wall                                    #wall_
+6 ,6  :    ,                 ,wall                                    #wall_
+6 ,7  :    ,                 ,wall                                    #wall_
+6 ,8  :    ,                 ,wall                                    #wall_
+6 ,9  :    ,                 ,corridor_0101                           #corridor_
+6 ,10 :    ,                 ,wall                                    #wall_
+6 ,11 :    ,                 ,wall                                    #wall_
+6 ,12 :    ,                 ,wall                                    #wall_
+6 ,13 :    ,                 ,wall                                    #wall_
+6 ,14 :    ,                 ,wall                                    #wall_
+6 ,15 :    ,                 ,wall                                    #wall_
+6 ,16 :    ,                 ,corridor_0101                           #corridor_
+6 ,17 :    ,                 ,wall                                    #wall_
+
+7 ,1  :    ,                 ,wall                                    #wall_
+7 ,2  :    ,                 ,wall                                    #wall_
+7 ,3  :    ,                 ,corridor_1101+opener_unpressed+green    #opener_g
+7 ,4  :    ,                 ,wall                                    #wall_
+7 ,5  :    ,                 ,corridor_1001                           #corridor_
+7 ,6  :    ,                 ,corridor_1010                           #corridor_
+7 ,7  :    ,                 ,corridor_1010+closer_unpressed+cyan     #closer_c
+7 ,8  :    ,                 ,port_NS_closed                          #port_c
+7 ,9  :    ,                 ,corridor_0100                           #corridor_
+7 ,10 :    ,                 ,wall                                    #wall_
+7 ,11 :    ,                 ,wall                                    #wall_
+7 ,12 :    ,                 ,wall                                    #wall_
+7 ,13 :    ,                 ,wall                                    #wall_
+7 ,14 :    ,                 ,corridor_1001                           #corridor_
+7 ,15 :    ,                 ,corridor_1010                           #corridor_
+7 ,16 :    ,                 ,corridor_0110                           #corridor_
+7 ,17 :    ,                 ,wall                                    #wall_
+
+8 ,1  :    ,                 ,wall                                    #wall_
+8 ,2  :    ,                 ,corridor_1011+closer_unpressed+green    #closer_g
+8 ,3  :    ,                 ,corridor_0000                           #corridor_
+8 ,4  :    ,                 ,corridor_1010                           #corridor_
+8 ,5  :    ,                 ,corridor_0100                           #corridor_
+8 ,6  :    ,                 ,wall                                    #wall_
+8 ,7  :    ,                 ,wall                                    #wall_
+8 ,8  :    ,                 ,wall                                    #wall_
+8 ,9  :    ,                 ,corridor_0001                           #corridor_
+8 ,10 :    ,                 ,port_NS_closed                          #port_y
+8 ,11 :    ,                 ,corridor_1010                           #corridor_
+8 ,12 :    ,                 ,corridor_1000                           #corridor_
+8 ,13 :    ,                 ,corridor_1010+closer_unpressed+yellow   #closer_y
+8 ,14 :    ,                 ,corridor_0100                           #corridor_
+8 ,15 :    ,                 ,wall                                    #wall_
+8 ,16 :    ,                 ,wall                                    #wall_
+8 ,17 :    ,                 ,wall                                    #wall_
+
+9 ,1  :    ,                 ,wall                                    #wall_
+9 ,2  :    ,                 ,wall                                    #wall_
+9 ,3  :    ,                 ,corridor_0111+opener_unpressed+blue     #opener_b
+9 ,4  :    ,                 ,wall                                    #wall_
+9 ,5  :    ,                 ,corridor_0011                           #corridor_
+9 ,6  :    ,                 ,corridor_1010                           #corridor_
+9 ,7  :    ,                 ,port_NS_closed                          #port_g
+9 ,8  :    ,                 ,corridor_1010                           #corridor_
+9 ,9  :    ,                 ,corridor_0110+opener_unpressed+cyan     #opener_c
+9 ,10 :    ,                 ,wall                                    #wall_
+9 ,11 :    ,                 ,wall                                    #wall_
+9 ,12 :    ,                 ,corridor_0111+closer_unpressed+purple   #closer_p
+9 ,13 :    ,                 ,wall                                    #wall_
+9 ,14 :    ,                 ,corridor_0111+closer_unpressed+red      #closer_r
+9 ,15 :    ,                 ,wall                                    #wall_
+9 ,16 :    ,                 ,wall                                    #wall_
+9 ,17 :    ,                 ,wall                                    #wall_
+
+10,1  :    ,                 ,wall                                    #wall_
+10,2  :    ,                 ,wall                                    #wall_
+10,3  :    ,                 ,wall                                    #wall_
+10,4  :    ,                 ,wall                                    #wall_
+10,5  :    ,                 ,wall                                    #wall_
+10,6  :    ,                 ,wall                                    #wall_
+10,7  :    ,                 ,wall                                    #wall_
+10,8  :    ,                 ,wall                                    #wall_
+10,9  :    ,                 ,wall                                    #wall_
+10,10 :    ,                 ,wall                                    #wall_
+10,11 :    ,                 ,wall                                    #wall_
+10,12 :    ,                 ,wall                                    #wall_
+10,13 :    ,                 ,wall                                    #wall_
+10,14 :    ,                 ,wall                                    #wall_
+10,15 :    ,                 ,wall                                    #wall_
+10,16 :    ,                 ,wall                                    #wall_
+10,17 :    ,                 ,wall                                    #wall_
+
+11,1  :    ,                 ,wall                                    #wall_
+11,2  :    ,                 ,wall                                    #wall_
+11,3  :    ,                 ,wall                                    #wall_
+11,4  :    ,                 ,wall                                    #wall_
+11,5  :    ,                 ,wall                                    #wall_
+11,6  :    ,                 ,wall                                    #wall_
+11,7  :    ,                 ,wall                                    #wall_
+11,8  :    ,                 ,wall                                    #wall_
+11,9  :    ,                 ,wall                                    #wall_
+11,10 :    ,                 ,wall                                    #wall_
+11,11 :    ,                 ,wall                                    #wall_
+11,12 :    ,                 ,wall                                    #wall_
+11,13 :    ,                 ,wall                                    #wall_
+11,14 :    ,                 ,wall                                    #wall_
+11,15 :    ,                 ,wall                                    #wall_
+11,16 :    ,                 ,wall                                    #wall_
+11,17 :    ,                 ,wall                                    #wall_
