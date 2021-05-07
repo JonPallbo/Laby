@@ -156,32 +156,28 @@ function load_graphics()
 	"port_NS_a1f5"; # 17
 	"port_NS_a1f6"; # 18
 	"port_NS_a1f7"; # 19
-	"port_NS_a1f8"; # 20
-	"port_NS_a1f9"; # 21
 	
-	"port_EW_a1f1"; # 22
-	"port_EW_a1f2"; # 23
-	"port_EW_a1f3"; # 24
-	"port_EW_a1f4"; # 25
-	"port_EW_a1f5"; # 26
-	"port_EW_a1f6"; # 27
-	"port_EW_a1f7"; # 28
-	"port_EW_a1f8"; # 29
-	"port_EW_a1f9" # 30
+	"port_EW_a1f1"; # 20
+	"port_EW_a1f2"; # 21
+	"port_EW_a1f3"; # 22
+	"port_EW_a1f4"; # 23
+	"port_EW_a1f5"; # 24
+	"port_EW_a1f6"; # 25
+	"port_EW_a1f7"; # 26
 	
 	]
 	
 	imgAnimationFrames = extract_image_from_file.("graphics/animation/".*animationFrames.*".png")
 	
 	animation = Dict(
-	"knuffis_north_finished" => animationFrames[[1; 2; 3; 2; 1; 2; 3; 2; 1]],
-	"knuffis_east_finished" => animationFrames[[4; 5; 6; 5; 4; 5; 6; 5; 4]],
-	"knuffis_south_finished" => animationFrames[[7; 8; 9; 8; 7; 8; 9; 8; 7]],
-	"knuffis_west_finished" => animationFrames[[10; 11; 12; 11; 10; 11; 12; 11; 10]],
-	"port_NS_opening" => animationFrames[13:21],
-	"port_EW_opening" => animationFrames[22:30],
-	"port_NS_closing" => reverse(animationFrames[13:21]),
-	"port_EW_closing" => reverse(animationFrames[22:30]))
+	"knuffis_north_finished" => animationFrames[[2; 3; 2; 1; 2; 3; 2]],
+	"knuffis_east_finished" => animationFrames[[5; 6; 5; 4; 5; 6; 5]],
+	"knuffis_south_finished" => animationFrames[[8; 9; 8; 7; 8; 9; 8]],
+	"knuffis_west_finished" => animationFrames[[11; 12; 11; 10; 11; 12; 11]],
+	"port_NS_opening" => animationFrames[13:19],
+	"port_EW_opening" => animationFrames[20:26],
+	"port_NS_closing" => reverse(animationFrames[13:19]),
+	"port_EW_closing" => reverse(animationFrames[20:26]))
 	
 	graphics = Graphics(Dict(statics .=> imgStatics), Dict(animationFrames .=> imgAnimationFrames), animation)
 	
@@ -503,6 +499,7 @@ function key_pressed!(window::GtkWindowLeaf, event::Gtk.GdkEventKey)
 		
 		run_animation! = @task begin
 			global level.animating = true
+			sleep(0.1)
 			while level.animationStackSize > 0
 				animation_action! = @task begin
 					global image, level.animationStackSize, level.complete = act!("", true)
